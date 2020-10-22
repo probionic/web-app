@@ -58,14 +58,14 @@ export default {
             display: true,
             scaleLabel: {
               display: true,
-              labelString: 'Signal strength (0 - 1023)',
+              labelString: 'Signal rectified amplitude (V)',
               fontSize: 14
             },
             ticks: {
               beginAtZero: true,
               min: 0,
-              stepSize: 128,
-              max: 1023
+              stepSize: 0.5,
+              max: 5
             }
           }]
         }
